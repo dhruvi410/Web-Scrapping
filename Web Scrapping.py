@@ -11,4 +11,4 @@ for i in soup.select('.mw-headline'):
 
     Text.append(i.text)
 df=pd.DataFrame({'Text':Text,})
-df.to_csv('Web.csv', index=False, encoding='utf-8')
+df.to_csv('data.csv', index=False, encoding='utf-8')
